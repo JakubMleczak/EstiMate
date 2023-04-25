@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "8d1f8dc0-e369-11ed-97c2-e54f982af899",
+  "version": "0.0.1",
+  "packageName": "estimate",
+  "developer": {
+    "name": "Jakub Mleczak",
+    "websiteUrl": "https://bf90-192-58-206-158.ngrok.io",
+    "privacyUrl": "https://bf90-192-58-206-158.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://bf90-192-58-206-158.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "Mate",
+    "full": "Mate"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://bf90-192-58-206-158.ngrok.io/estiMateTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team",
+        "groupchat"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "bf90-192-58-206-158.ngrok.io"
+  ],
+  "showLoadingIndicator": true
+}

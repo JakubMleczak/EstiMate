@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Jakub Mleczak"
+    },
+    "libraryName": "estiMate",
+    "generator-version": "4.1.0"
+  }
+}
