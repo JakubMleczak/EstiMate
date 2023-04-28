@@ -8,7 +8,7 @@ package
 .env
 
 # do not include the Connectors Json Db file
-# connectors.json
+connectors.json
 
 # do not include dist files
 dist

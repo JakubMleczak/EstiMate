@@ -1,4 +1,4 @@
-# Mate - Microsoft Teams App
+# EstiMate - Microsoft Teams App
 
 Generate a Microsoft Teams application.
 
